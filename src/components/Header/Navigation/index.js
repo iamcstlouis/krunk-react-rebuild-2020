@@ -39,7 +39,7 @@ const Navigation = () => {
                     <div id='mobile-menu' className={`mobile-menu ${open ? 'open' : ''}`} aria-hidden='true'>
                         <div className='mobile-menu-links'>
                             <NavLink exact to='/' onClick={() => { setOpen(!open) }}>Home</NavLink>
-                            <NavLink to='/krunk-burgers' onClick={() => { setOpen(!open) }}>Menu</NavLink>
+                            <NavLink to='/menu' onClick={() => { setOpen(!open) }}>Menu</NavLink>
                             <NavLink to='/about' onClick={() => { setOpen(!open) }}>About</NavLink>
                             <NavLink to='/contact' onClick={() => { setOpen(!open) }}>Contact</NavLink>
                         </div>
@@ -64,7 +64,7 @@ const Navigation = () => {
                                 <NavLink to='/' exact className='topNavBtn'>Home</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/krunk-burgers' className='topNavBtn'>Menu</NavLink>
+                                <NavLink to='/menu' className='topNavBtn'>Menu</NavLink>
                             </li>
                             <li>
                                 <NavLink to='/about' className='topNavBtn'>About</NavLink>
