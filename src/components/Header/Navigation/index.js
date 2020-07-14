@@ -15,7 +15,7 @@ const Navigation = () => {
     return (
         <nav className='top-nav'>
             <Container>
-                <div className="content-wrapper">
+                <div className='content-wrapper'>
                     <div className='logo-wrapper' onClick={() => { open ? setOpen(!open) : setOpen(open) }}>
                         <Link to='/' exact className='top-nav-link'>
                             <img
@@ -46,11 +46,11 @@ const Navigation = () => {
                         </div>
 
                         <div className='socials'>
-                            <a href='https://www.facebook.com/Krunk-Burgers-442165483212032/' rel="noopener noreferrer" target='_blank' onClick={() => { setOpen(!open) }}>
+                            <a href='https://www.facebook.com/Krunk-Burgers-442165483212032/' rel='noopener noreferrer' target='_blank' onClick={() => { setOpen(!open) }}>
                                 <i className='fab fa-facebook'></i>
                             </a>
 
-                            <a href='https://www.instagram.com/krunkburgers/?hl=en' rel="noopener noreferrer" target='_blank' onClick={() => { setOpen(!open) }}>
+                            <a href='https://www.instagram.com/krunkburgers/?hl=en' rel='noopener noreferrer' target='_blank' onClick={() => { setOpen(!open) }}>
                                 <i className='fab fa-instagram'></i>
                             </a>
                         </div>
@@ -76,11 +76,11 @@ const Navigation = () => {
                         </ul>
 
                         <div className='socials'>
-                            <a href='https://www.facebook.com/Krunk-Burgers-442165483212032/' rel="noopener noreferrer" target='_blank'>
+                            <a href='https://www.facebook.com/Krunk-Burgers-442165483212032/' rel='noopener noreferrer' target='_blank'>
                                 <i className='fab fa-facebook'></i>
                             </a>
 
-                            <a href='https://www.instagram.com/krunkburgers/?hl=en' rel="noopener noreferrer" target='_blank'>
+                            <a href='https://www.instagram.com/krunkburgers/?hl=en' rel='noopener noreferrer' target='_blank'>
                                 <i className='fab fa-instagram'></i>
                             </a>
                         </div>

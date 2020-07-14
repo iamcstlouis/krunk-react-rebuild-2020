@@ -10,9 +10,10 @@ const DeliverooWidget = () => {
             <a
                 href='https://deliveroo.co.uk/menu/london/croydon/krunk?day=today&postcode=SE256NX&time=ASAP'
                 target='_blank'
+                className='deliveroo-widget__link'
             >
-                <div className='deliveroo-widget__content-wrapper'>
-                    <img src={deliverooWidgetImage} alt='Deliveroo Widget' />
+                <div className='deliveroo-widget__image-wrapper'>
+                    <img src={deliverooWidgetImage} alt='Deliveroo Widget' className='deliveroo-widget__image' />
                 </div>
             </a>
         </div>
