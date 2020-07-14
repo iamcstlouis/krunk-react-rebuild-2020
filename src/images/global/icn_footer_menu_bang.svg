@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icn_bang! copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="8.81355932e-06 0 15.4516237 0 15.4516237 12.9752031 8.81355932e-06 12.9752031"></polygon>
+    </defs>
+    <g id="Krunk-Burgers-Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="krunk-Homepage" transform="translate(-532.000000, -948.000000)">
+            <g id="Group-2" transform="translate(394.000000, 931.000000)">
+                <g id="icn_bang!" transform="translate(138.000000, 17.000000)">
+                    <g id="bang!-Vector">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M7.40335458,-3.08474576e-05 C7.40335458,-3.08474576e-05 7.06804271,6.37151153 3.43081898,1.54771831 C3.43081898,1.54771831 6.83584949,6.34573186 8.81355932e-06,4.51423017 C8.81355932e-06,4.51423017 6.81006983,6.52632169 0.206378305,10.4214302 C0.206378305,10.4214302 7.17120542,6.70686746 6.34572746,12.9752031 C6.34572746,12.9752031 7.09382237,6.08775898 12.1498088,11.1953047 C12.1498088,11.1953047 7.86769695,6.42311492 15.4516325,7.1453861 C15.4516325,7.1453861 7.97090373,6.47471831 14.6519783,2.57956576 C14.6519783,2.57956576 9.44122576,5.57185729 10.4472495,2.16682678 C10.4472495,2.16682678 7.60976814,5.54607763 7.40335458,-3.08474576e-05" id="Fill-1" fill="#F9F871" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

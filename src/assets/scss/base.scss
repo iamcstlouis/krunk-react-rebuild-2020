@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    overflow-x: hidden;
+
+    // To prevent scrolling when mobile-menu is open
+    &.fixed-position {
+        position: fixed;
+    }
+}
+
+#root {
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+@font-face {
+    font-family: "dnk";
+    src: url(assets/fonts/dnk.ttf);
+    font-style: normal;
+}
+
+h1 {
+    font-family: "dnk";
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+ul {
+    list-style: none;
+}
