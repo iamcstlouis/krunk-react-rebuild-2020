@@ -14,7 +14,7 @@ const Navigation = () => {
     return (
         <nav className='top-nav'>
             <Container>
-                <div className='logo-wrapper'>
+                <div className='logo-wrapper' onClick={() => { open ? setOpen(!open) : setOpen(open) }}>
                     <Link to='/' exact className='top-nav-link'>
                         <img
                             src={logo}
