@@ -1,11 +1,16 @@
 import React from 'react';
-import './App.css';
+
+import Header from './components/Header'
+
+import './assets/scss/reset.scss';
+import './assets/scss/base.scss';
+
 
 function App() {
   return (
-    <div>
-      <h1> Heo </h1>
-    </div>
+    <React.Fragment>
+      <Header />
+    </React.Fragment>
   );
 }
 
