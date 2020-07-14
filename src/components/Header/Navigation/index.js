@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 
 import logo from '../../../images/global/krunk-burgers-logo.png'
+import DeliverooWidget from '../../DeliverooWidget'
 
 import './styles.scss'
 
@@ -54,7 +55,7 @@ const Navigation = () => {
                             </a>
                         </div>
 
-                        {/* <DeliverooWidget /> */}
+                        <DeliverooWidget />
                     </div>
 
                     {/* <!-- Desktop Links-- > */}

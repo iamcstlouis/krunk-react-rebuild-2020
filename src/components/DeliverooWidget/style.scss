@@ -1,0 +1,16 @@
+.deliveroo-widget {
+    background-color: #35b8b2;
+    width: 24.8rem;
+    height: 5.2rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(39, 145, 139);
+    }
+}
