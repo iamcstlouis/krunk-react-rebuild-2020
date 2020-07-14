@@ -37,18 +37,18 @@ const Navigation = () => {
 
                 <div id='mobile-menu' className={`mobile-menu ${open ? 'open' : ''}`} aria-hidden='true'>
                     <div className='mobile-menu-links'>
-                        <NavLink to='/' exact>Home</NavLink>
-                        <NavLink to='/krunk-burgers' exact>Menu</NavLink>
-                        <NavLink to='/about' exact>About</NavLink>
-                        <NavLink to='/contact' exact>Contact</NavLink>
+                        <NavLink exact to='/' onClick={() => { setOpen(!open) }}>Home</NavLink>
+                        <NavLink to='/krunk-burgers' onClick={() => { setOpen(!open) }}>Menu</NavLink>
+                        <NavLink to='/about' onClick={() => { setOpen(!open) }}>About</NavLink>
+                        <NavLink to='/contact' onClick={() => { setOpen(!open) }}>Contact</NavLink>
                     </div>
 
                     <div className='socials'>
-                        <a href='https://www.facebook.com/Krunk-Burgers-442165483212032/' rel="noopener noreferrer" target='_blank'>
+                        <a href='https://www.facebook.com/Krunk-Burgers-442165483212032/' rel="noopener noreferrer" target='_blank' onClick={() => { setOpen(!open) }}>
                             <i className='fab fa-facebook'></i>
                         </a>
 
-                        <a href='https://www.instagram.com/krunkburgers/?hl=en' rel="noopener noreferrer" target='_blank'>
+                        <a href='https://www.instagram.com/krunkburgers/?hl=en' rel="noopener noreferrer" target='_blank' onClick={() => { setOpen(!open) }}>
                             <i className='fab fa-instagram'></i>
                         </a>
                     </div>
@@ -57,7 +57,6 @@ const Navigation = () => {
                 </div>
 
                 {/* <!-- Desktop Links-- > */}
-
                 <div className='desktop-links'>
                     <ul className='menu-links'>
                         <li>
@@ -85,7 +84,7 @@ const Navigation = () => {
                     </div>
                 </div>
             </Container >
-        </nav >
+        </nav>
     )
 }
 
