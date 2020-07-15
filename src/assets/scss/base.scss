@@ -53,6 +53,14 @@ main {
         padding-bottom: 20rem;
     }
 
+    .top-section-wrapper {
+
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
     // .container {
     //     h1 {
     //         font-size: 5rem;
