@@ -6,43 +6,43 @@
         margin-top: 1rem;
     }
 
-    // Menu tabs need specific styles here
-    // &__beef {
-    //     position: relative;
+    // Menu tabs need specific styles 
+    &__beef {
+        position: relative;
 
-    //     .menu-tab {
-    //         left: -15.5rem;
-    //         top: 1rem;
-    //     }
-    // }
+        .menu-tab {
+            left: -15.5rem;
+            top: 1rem;
+        }
+    }
 
-    // &__chicken {
-    //     position: relative;
+    &__chicken {
+        position: relative;
 
-    //     .menu-tab {
-    //         left: -15.5rem;
-    //         top: 1rem;
+        .menu-tab {
+            left: -15.5rem;
+            top: 1rem;
 
-    //         .content-wrapper {
-    //             h2 {
-    //                 margin-top: 14rem;
-    //             }
-    //         }
-    //     }
-    // }
+            .content-wrapper {
+                h2 {
+                    margin-top: 14rem;
+                }
+            }
+        }
+    }
 
-    // &__vegan {
-    //     position: relative;
+    &__vegan {
+        position: relative;
 
-    //     .menu-tab {
-    //         left: -15.5rem;
-    //         top: 1rem;
+        .menu-tab {
+            left: -15.5rem;
+            top: 1rem;
 
-    //         .content-wrapper {
-    //             h2 {
-    //                 margin-top: 11.5rem;
-    //             }
-    //         }
-    //     }
-    // }
+            .content-wrapper {
+                h2 {
+                    margin-top: 11.5rem;
+                }
+            }
+        }
+    }
 }
