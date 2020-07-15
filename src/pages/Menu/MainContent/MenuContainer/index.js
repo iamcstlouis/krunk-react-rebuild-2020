@@ -2,6 +2,7 @@ import React from 'react'
 import { useLocation } from 'react-router-dom'
 
 
+import MenuSplatterHdr from './MenuSplatterHdr'
 import MealDealsHdr from './MealDealsHdr'
 import BurgersMenu from './BurgersMenu'
 // import BurgersMenu from './BurgersMenu'
@@ -21,6 +22,7 @@ const MenuBase = () => {
     return (
         <React.Fragment>
             <div className='menu-container'>
+                <MenuSplatterHdr />
                 <MealDealsHdr />
 
                 {burgerPage && <BurgersMenu />}

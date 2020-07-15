@@ -48,8 +48,10 @@
         position: relative;
 
         .desktop-menu-title-tab {
-            left: -14rem;
-            top: 1rem;
+
+            &__content-wrapper {
+                margin-top: 11rem;
+            }
         }
     }
 
@@ -57,8 +59,6 @@
         position: relative;
 
         .desktop-menu-title-tab {
-            left: -14rem;
-            top: 1rem;
 
             &__content-wrapper {
                 h2 {
@@ -72,8 +72,6 @@
         position: relative;
 
         .desktop-menu-title-tab {
-            left: -14rem;
-            top: 1rem;
 
             &__content-wrapper {
                 h2 {

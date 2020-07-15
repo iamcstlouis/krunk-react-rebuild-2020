@@ -5,7 +5,7 @@ import BurgerCard from './BurgerCard'
 import DesktopMenuTitleTab from '../DesktopMenuTitleTab'
 
 import './styles.scss'
-import MealsSeparator from '../../MealsSeparator'
+import MealsSeparator from '../MealsSeparator'
 
 const BurgersMenu = () => {
     return (
