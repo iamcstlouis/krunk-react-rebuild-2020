@@ -5,6 +5,7 @@ import { Route, Switch, useLocation } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
 import Home from './pages/Home'
+import Menu from './pages/Menu';
 import ComicQuote from './components/ComicQuote';
 import DeliverooWidget from './components/DeliverooWidget';
 import Footer from './components/Footer';
@@ -23,21 +24,22 @@ function App() {
     <React.Fragment>
       <Header />
 
-      <Switch>
-        <Route exact path='/' component={Home} />
 
-        <main className='main'>
-          <div className='top-section-wrapper'>
-            <Container>
-              <div className="content-wrapper">
-                {menuPage ? <ComicQuote /> : null}
-                {!HomePage ? <DeliverooWidget /> : null}
-              </div>
-            </Container>
-          </div>
-          <Route path='menu' component={Home} />
-        </main>
-      </Switch>
+      <main className='main'>
+        <div className='top-section-wrapper'>
+          <Container>
+            <div className="content-wrapper">
+              {menuPage ? <ComicQuote /> : null}
+              {!HomePage ? <DeliverooWidget /> : null}
+            </div>
+          </Container>
+        </div>
+
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/menu' component={Menu} />
+        </Switch>
+      </main>
 
       <Footer />
     </React.Fragment>
