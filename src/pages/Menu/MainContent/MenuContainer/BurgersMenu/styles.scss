@@ -47,8 +47,8 @@
     &__beef {
         position: relative;
 
-        .menu-tab {
-            left: -15.5rem;
+        .desktop-menu-title-tab {
+            left: -14rem;
             top: 1rem;
         }
     }
@@ -56,13 +56,13 @@
     &__chicken {
         position: relative;
 
-        .menu-tab {
-            left: -15.5rem;
+        .desktop-menu-title-tab {
+            left: -14rem;
             top: 1rem;
 
-            .content-wrapper {
+            &__content-wrapper {
                 h2 {
-                    margin-top: 14rem;
+                    margin-top: 14.5rem;
                 }
             }
         }
@@ -71,11 +71,11 @@
     &__vegan {
         position: relative;
 
-        .menu-tab {
-            left: -15.5rem;
+        .desktop-menu-title-tab {
+            left: -14rem;
             top: 1rem;
 
-            .content-wrapper {
+            &__content-wrapper {
                 h2 {
                     margin-top: 11.5rem;
                 }

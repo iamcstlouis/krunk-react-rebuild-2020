@@ -2,6 +2,7 @@ import React from 'react'
 
 import MenuData from '../../MenuData'
 import BurgerCard from './BurgerCard'
+import DesktopMenuTitleTab from '../DesktopMenuTitleTab'
 
 import './styles.scss'
 import MealsSeparator from '../../MealsSeparator'
@@ -12,6 +13,8 @@ const BurgersMenu = () => {
 
             <h2 class="cards__mobile-menu-tab" data-aos="fade-left" data-aos-delay="1300">Beef</h2>
             <div className="cards--grid cards__beef">
+                <DesktopMenuTitleTab menuTitle={'Beef'} />
+
                 {
                     MenuData.burgers.beef.map((burger) => {
                         return (
@@ -25,6 +28,8 @@ const BurgersMenu = () => {
 
             <h2 class="cards__mobile-menu-tab" data-aos="fade-left" data-aos-delay="1300">Chicken</h2>
             <div className="cards--grid cards__chicken">
+                <DesktopMenuTitleTab menuTitle={'Chicken'} />
+
                 {
                     MenuData.burgers.chicken.map((burger) => {
                         return (
@@ -38,6 +43,8 @@ const BurgersMenu = () => {
 
             <h2 class="cards__mobile-menu-tab" data-aos="fade-left" data-aos-delay="1300">Vegan</h2>
             <div className="cards--grid cards__vegan">
+                <DesktopMenuTitleTab menuTitle={'Vegan'} />
+
                 {
                     MenuData.burgers.vegan.map((burger) => {
                         return (
