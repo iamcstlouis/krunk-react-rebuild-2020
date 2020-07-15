@@ -8,7 +8,7 @@
     .view-our-menu {
         a {
             font-family: "dnk";
-            font-size: 4rem;
+            font-size: 30px;
             color: #fff;
             text-decoration: none;
 
@@ -34,14 +34,15 @@
                 justify-content: space-around;
                 align-items: center;
 
-                @media screen and (min-width: 768px) {
-                    a {
-                        font-size: 3rem;
-                    }
+                a {
+                    font-size: 12px;
+                    color: #f9f871;
                 }
 
-                a {
-                    color: #f9f871;
+                @media screen and (min-width: 768px) {
+                    a {
+                        font-size: 30px;
+                    }
                 }
             }
         }
