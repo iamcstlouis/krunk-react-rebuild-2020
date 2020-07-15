@@ -26,7 +26,7 @@ const Footer = () => {
                 <div className='footer-nav'>
                     <div className='content-wrapper'>
                         <div className='links'>
-                            <NavLink to='/krunk-burgers' data-aos='fade-up' data-aos-delay='150'>Burgers</NavLink>
+                            <NavLink to='/menu/krunk-burgers' data-aos='fade-up' data-aos-delay='150'>Burgers</NavLink>
                             <span>
                                 <img
                                     src={menuBangImage}
@@ -36,7 +36,7 @@ const Footer = () => {
                                     data-aos-delay='250'
                                 />
                             </span>
-                            <NavLink to='/krunk-wings' data-aos='fade-up' data-aos-delay='350'>Wings</NavLink>
+                            <NavLink to='/menu/krunk-wings' data-aos='fade-up' data-aos-delay='350'>Wings</NavLink>
                             <span>
                                 <img
                                     src={menuBangImage}
@@ -46,7 +46,7 @@ const Footer = () => {
                                     data-aos-delay='450'
                                 />
                             </span>
-                            <NavLink to='/krunk-shakes' data-aos='fade-up' data-aos-delay='550'>Shakes</NavLink>
+                            <NavLink to='/menu/krunk-shakes-n-smoothies' data-aos='fade-up' data-aos-delay='550'>Shakes</NavLink>
                             <span>
                                 <img
                                     src={menuBangImage}
@@ -57,7 +57,7 @@ const Footer = () => {
                                 />
                             </span>
                             <NavLink
-                                to='/krunk-desserts'
+                                to='/menu/krunk-desserts'
                                 data-aos='fade-up'
                                 data-aos-delay='750'
                             >Desserts</NavLink>

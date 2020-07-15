@@ -27,7 +27,7 @@ const Hero = () => {
                                         <h2 className='featured-meal-name'>Classic Chicken</h2>
                                         <p className='featured-meal-desc'>Cheese, pickles, home-made coleslaw & burger</p>
                                         <div className='view-more-btn'>
-                                            <Link to='/krunk-burgers' exact className='view-more'>View More</Link>
+                                            <Link to='/menu/krunk-burgers' exact className='view-more'>View More</Link>
                                         </div>
                                     </div>
                                 </div>

@@ -18,27 +18,46 @@ function App() {
   const location = useLocation();
   const pathname = location.pathname;
   const menuPage = pathname === '/menu'
-  const HomePage = pathname === '/'
+  const menuBurgerPage = pathname === '/menu/krunk-burgers'
+  const menuWingsPage = pathname === '/menu/krunk-wings'
+  const menuShakesPage = pathname === '/menu/krunk-shakes-n-smoothies'
+  const menuDessertsPage = pathname === '/menu/krunk-desserts'
+  const homePage = pathname === '/'
+
+  const showComicQuote = () => {
+    if (menuPage) {
+      return <ComicQuote />
+    } else if (menuBurgerPage) {
+      return <ComicQuote />
+    } else if (menuWingsPage) {
+      return <ComicQuote />
+    } else if (menuShakesPage) {
+      return <ComicQuote />
+    } else if (menuDessertsPage) {
+      return <ComicQuote />
+    } else { return null }
+  }
 
   return (
     <React.Fragment>
       <Header />
 
-
       <main className='main'>
         <div className='top-section-wrapper'>
           <Container>
             <div className="content-wrapper">
-              {menuPage ? <ComicQuote /> : null}
-              {!HomePage ? <DeliverooWidget /> : null}
+              {showComicQuote()}
+              {!homePage ? <DeliverooWidget /> : null}
             </div>
           </Container>
         </div>
 
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route path='/menu' component={Menu} />
-        </Switch>
+        <Container>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/menu' component={Menu} />
+          </Switch>
+        </Container>
       </main>
 
       <Footer />

@@ -10,7 +10,7 @@ const SubMenu = () => {
         <div className='sub-menu'>
             <h1>Menu</h1>
             <div className='links'>
-                <NavLink to='/krunk-burgers' exact data-aos='fade-down' data-aos-delay='100'>Burgers</NavLink>
+                <NavLink to='/menu/krunk-burgers' data-aos='fade-down' data-aos-delay='100'>Burgers</NavLink>
                 <span>
                     <img
                         src={subMenuBangImage}
@@ -20,7 +20,7 @@ const SubMenu = () => {
                         data-aos-delay='200'
                     />
                 </span>
-                <NavLink to='/krunk-wings' exact data-aos='fade-down' data-aos-delay='300'>Wings</NavLink>
+                <NavLink to='/menu/krunk-wings' data-aos='fade-down' data-aos-delay='300'>Wings</NavLink>
                 <span>
                     <img
                         src={subMenuBangImage}
@@ -30,7 +30,7 @@ const SubMenu = () => {
                         data-aos-delay='400'
                     />
                 </span>
-                <NavLink to='/krunk-shakes' exact data-aos='fade-down' data-aos-delay='500'>Shakes</NavLink>
+                <NavLink to='/menu/krunk-shakes-n-smoothies' data-aos='fade-down' data-aos-delay='500'>Shakes</NavLink>
                 <span>
                     <img
                         src={subMenuBangImage}
@@ -40,7 +40,7 @@ const SubMenu = () => {
                         data-aos-delay='600'
                     />
                 </span>
-                <NavLink to='/krunk-desserts' exact data-aos='fade-down' data-aos-delay='700'>Desserts</NavLink>
+                <NavLink to='/menu/krunk-desserts' data-aos='fade-down' data-aos-delay='700'>Desserts</NavLink>
             </div>
         </div>
     )
