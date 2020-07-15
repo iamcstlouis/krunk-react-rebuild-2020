@@ -12,13 +12,14 @@
     }
 
     .content-wrapper {
-        position: relative;
         height: inherit;
         display: flex;
         align-items: center;
         justify-content: center;
 
         .featured-meal-deal {
+            position: relative;
+
             @media screen and (min-width: 600px) {
                 width: 100%;
             }
@@ -117,15 +118,23 @@
                     }
                 }
             }
-        }
-    }
 
-    .deliveroo-widget {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: -26px;
-        z-index: 2;
-        border-radius: 5px;
+            .deliveroo-widget {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -26px;
+                z-index: 2;
+                border-radius: 5px;
+
+                @media screen and (min-width: 768px) {
+                    bottom: -25rem;
+                }
+
+                @media screen and (min-width: 1024px) and (orientation: landscape) {
+                    bottom: -15rem;
+                }
+            }
+        }
     }
 }

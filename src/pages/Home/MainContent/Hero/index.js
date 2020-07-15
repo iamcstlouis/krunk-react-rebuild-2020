@@ -10,7 +10,7 @@ import './styles.scss'
 const Hero = () => {
     return (
         <section className='hero-img'>
-            <Container>
+            <Container style={{ height: 'inherit' }}>
                 <div className="content-wrapper">
                     <div className='featured-meal-deal' data-aos='fade-up'>
                         <div className='content-wrapper'>
@@ -33,9 +33,9 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <DeliverooWidget />
 
-                    <DeliverooWidget />
+                    </div>
                 </div>
             </Container>
         </section>

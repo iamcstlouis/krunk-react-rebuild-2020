@@ -1,0 +1,72 @@
+footer {
+    background: #290540 url("../../images/global/bg-buildings.svg") 100% 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem 0 1rem 0;
+    position: relative;
+
+    .view-our-menu {
+        a {
+            font-family: "dnk";
+            font-size: 4rem;
+            color: #fff;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+
+            @media screen and (min-width: 768px) {
+                font-size: 7rem;
+            }
+        }
+    }
+
+    .footer-nav {
+        margin-top: 1.5rem;
+
+        .content-wrapper {
+            max-width: 700px;
+            margin: 0 auto;
+
+            .links {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                @media screen and (min-width: 768px) {
+                    a {
+                        font-size: 3rem;
+                    }
+                }
+
+                a {
+                    color: #f9f871;
+                }
+            }
+        }
+    }
+
+    .copyright-section {
+        margin-top: 6rem;
+
+        @media screen and (min-width: 1024px) {
+            margin-top: 10rem;
+        }
+
+        .logo-wrapper {
+            max-width: 90px;
+            margin: 0 auto;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .copyright {
+            font-size: 11px;
+            color: #f9b450;
+            margin-top: 1rem;
+        }
+    }
+}
