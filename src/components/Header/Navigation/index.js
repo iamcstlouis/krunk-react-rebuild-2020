@@ -17,7 +17,7 @@ const Navigation = () => {
             <Container>
                 <div className='content-wrapper'>
                     <div className='logo-wrapper' onClick={() => { open ? setOpen(!open) : setOpen(open) }}>
-                        <Link to='/' exact className='top-nav-link'>
+                        <Link to='/' className='top-nav-link'>
                             <img
                                 src={logo}
                                 alt='Krunks Burgers Logo'

@@ -4,6 +4,7 @@ import MenuData from '../../MenuData'
 import BurgerCard from './BurgerCard'
 
 import './styles.scss'
+import MealsSeparator from '../../MealsSeparator'
 
 const BurgersMenu = () => {
     return (
@@ -18,6 +19,8 @@ const BurgersMenu = () => {
                 }
             </div>
 
+            <MealsSeparator />
+
             <div className="cards cards__chicken">
                 {
                     MenuData.burgers.chicken.map((burger) => {
@@ -27,6 +30,9 @@ const BurgersMenu = () => {
                     })
                 }
             </div>
+
+            <MealsSeparator />
+
 
             <div className="cards cards__vegan">
                 {

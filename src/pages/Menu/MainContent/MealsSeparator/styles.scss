@@ -1,0 +1,16 @@
+.meals-separator {
+
+    &__content-wrapper {
+        padding: 3.6rem 0 0rem 0;
+
+        @media screen and (min-width: 768px) {
+            padding: 9.6rem 0 4.6rem 0;
+        }
+    }
+
+    &__separator {
+        width: 100%;
+        height: 0.35rem;
+        background-color: #f9b450;
+    }
+}
