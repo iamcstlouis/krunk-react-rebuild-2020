@@ -57,7 +57,11 @@ main {
 
         .content-wrapper {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
+
+            @media screen and (min-width: 576px) {
+                justify-content: space-between;
+            }
         }
     }
 
