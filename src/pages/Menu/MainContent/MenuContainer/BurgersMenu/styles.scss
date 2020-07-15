@@ -1,9 +1,30 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
     @media screen and (min-width: 992px) {
         margin-top: 1rem;
+    }
+
+    &__mobile-menu-tab {
+        font-family: "dnk";
+        background-color: #e1734e;
+        color: #731550;
+        font-size: 26px;
+        letter-spacing: 1.5px;
+        margin-bottom: 0;
+        border-radius: 5px;
+        margin-top: 5rem;
+        width: 100%;
+
+        // &:first-child {
+        //     margin-top: 2rem;
+        // }
+
+        @media screen and (min-width: 1280px) {
+            display: none;
+        }
     }
 
     // Menu tabs need specific styles 
