@@ -52,12 +52,10 @@ function App() {
           </Container>
         </div>
 
-        <Container>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/menu' component={Menu} />
           </Switch>
-        </Container>
       </main>
 
       <Footer />

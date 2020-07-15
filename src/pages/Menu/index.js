@@ -1,11 +1,14 @@
 import React from 'react'
 
 import MainContent from './MainContent'
+import { Container } from 'react-bootstrap'
 
 const index = () => {
     return (
         <React.Fragment>
-            <MainContent />
+            <Container style={{ paddingBottom: '12rem' }}>
+                <MainContent />
+            </Container>
         </React.Fragment>
     )
 }

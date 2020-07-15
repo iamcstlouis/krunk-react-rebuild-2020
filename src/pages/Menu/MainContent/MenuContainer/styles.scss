@@ -1,10 +1,9 @@
 .menu-container {
     position: relative;
     background-color: #fff;
-    margin-top: 10.5rem;
+    border-radius: .3rem;
     padding: 9.2rem 2rem;
-
-    height: 200px;
+    margin-top: 10.5rem;
 
     @media screen and (min-width: 1024px) {
         padding: 9.2rem 7.2rem;
