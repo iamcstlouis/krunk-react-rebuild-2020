@@ -1,0 +1,60 @@
+.sub-menu {
+
+    // @media screen and (min-width: 1024px) {
+    //     margin-top: 3.5rem;
+    // }
+
+    h1 {
+        font-size: 5rem;
+        color: #b23c52;
+        text-decoration: underline;
+        margin-bottom: 0;
+        margin-top: 3rem;
+
+        @media screen and (min-width: 768px) {
+            margin-top: 1rem;
+        }
+
+        @media screen and (min-width: 1024px) {
+            font-size: 6.7rem;
+            margin-top: 0;
+        }
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 95%;
+        margin: 2.5rem auto 0 auto;
+
+        @media screen and (min-width: 768px) {
+            width: 65%;
+        }
+
+        @media screen and (min-width: 1280px) {
+            width: 50%;
+        }
+
+        a {
+            color: #731550 !important;
+            font-size: 16px;
+
+            @media screen and (min-width: 768px) {
+                font-size: 2rem;
+            }
+
+            @media screen and (min-width: 1024px) {
+                font-size: 2.3rem;
+            }
+
+            &.router-link-active {
+                font-weight: 900;
+            }
+        }
+
+        span {
+            margin: 0 0.5rem;
+        }
+    }
+}
