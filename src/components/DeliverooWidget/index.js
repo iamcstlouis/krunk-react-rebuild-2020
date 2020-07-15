@@ -9,6 +9,7 @@ const DeliverooWidget = () => {
         <div className='deliveroo-widget'>
             <a
                 href='https://deliveroo.co.uk/menu/london/croydon/krunk?day=today&postcode=SE256NX&time=ASAP'
+                rel='noopener noreferrer'
                 target='_blank'
                 className='deliveroo-widget__link'
             >

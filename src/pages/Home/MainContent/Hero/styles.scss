@@ -1,0 +1,131 @@
+.hero-img {
+    background-image: url("../../../../images/home/krunk-sloppy-joe-burger2.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+
+    @media screen and (min-width: 375px) {
+        height: 80vh;
+    }
+
+    .content-wrapper {
+        position: relative;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .featured-meal-deal {
+            @media screen and (min-width: 600px) {
+                width: 100%;
+            }
+
+            .content-wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                @media screen and (min-width: 1024px) {
+                    flex-direction: row;
+                    justify-content: flex-start;
+                }
+
+                .content {
+                    background: #f9f871;
+                    padding: 2rem 2rem 5rem 2rem;
+                    align-self: center;
+
+                    @media screen and (min-width: 768px) {
+                        text-align: left;
+                    }
+
+                    h1 {
+                        color: #731550;
+                        font-size: 4rem;
+                        margin: 0;
+
+                        @media screen and (min-width: 768px) {
+                            font-size: 5rem;
+                        }
+                    }
+
+                    h2 {
+                        color: #731550;
+                        font-size: 2.5rem;
+                        font-weight: 700;
+                    }
+
+                    span,
+                    p {
+                        color: #731550;
+                    }
+
+                    span {
+                        font-size: 12px;
+
+                        @media screen and (min-width: 768px) {
+                            font-size: 15px;
+                        }
+                    }
+
+                    .featured-meal {
+                        margin-top: 2rem;
+
+                        @media screen and (min-width: 768px) {
+                            display: flex;
+                            width: 500px;
+                        }
+
+                        .featured-meal-info {
+                            margin-top: 2rem;
+
+                            @media screen and (min-width: 768px) {
+                                margin-left: 2rem;
+                                text-align: left;
+                            }
+
+                            p {
+                                font-size: 15px;
+                            }
+                        }
+
+                        .view-more-btn {
+                            margin-top: 3rem;
+
+                            @media screen and (min-width: 768px) {
+                                margin-top: 4.5rem;
+                            }
+
+                            a {
+                                background: rgb(224, 53, 53);
+                                color: #fff;
+                                padding: 1rem 2rem;
+                                font-family: "dnk";
+                                font-size: 2rem;
+                                letter-spacing: 1.2px;
+                                text-decoration: none;
+
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .deliveroo-widget {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -26px;
+        z-index: 2;
+        border-radius: 5px;
+    }
+}
