@@ -5,6 +5,7 @@ import { useLocation } from 'react-router-dom'
 import MenuSplatterHdr from './MenuSplatterHdr'
 import MealDealsHdr from './MealDealsHdr'
 import BurgersMenu from './BurgersMenu'
+import WingsMenu from './WingsMenu'
 // import BurgersMenu from './BurgersMenu'
 // import WingsMenu from './WingsMenu'
 // import ShakesNSmoothiesMenu from './ShakesNSmoothiesMenu'
@@ -17,7 +18,8 @@ const MenuBase = () => {
     const location = useLocation();
     const pathname = location.pathname;
 
-    const burgerPage = pathname === '/menu/krunk-burgers';
+    const burgersPage = pathname === '/menu/krunk-burgers';
+    const wingsPage = pathname === '/menu/krunk-wings';
 
     return (
         <React.Fragment>
@@ -25,7 +27,8 @@ const MenuBase = () => {
                 <MenuSplatterHdr />
                 <MealDealsHdr />
 
-                {burgerPage && <BurgersMenu />}
+                {burgersPage && <BurgersMenu />}
+                {wingsPage && <WingsMenu />}
             </div>
         </React.Fragment>
     )
