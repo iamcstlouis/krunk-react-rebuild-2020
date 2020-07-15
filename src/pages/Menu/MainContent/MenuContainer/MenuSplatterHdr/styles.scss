@@ -1,0 +1,32 @@
+.menu-hdr {
+    position: absolute;
+    z-index: 4;
+    top: -7.5rem;
+    left: 0;
+
+    @media screen and (min-width: 1024px) {
+        top: -13.5rem;
+    }
+
+    @media screen and (min-width: 1280px) {
+        top: -16.5rem;
+    }
+
+    .content-wrapper {
+        width: 35.1rem;
+        text-align: left;
+
+        img {
+            width: 50%;
+            margin-left: 1rem;
+
+            @media screen and (min-width: 1024px) {
+                width: 80%;
+            }
+
+            @media screen and (min-width: 1280px) {
+                width: 100%;
+            }
+        }
+    }
+}

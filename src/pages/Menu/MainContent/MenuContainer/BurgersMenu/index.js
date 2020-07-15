@@ -11,8 +11,8 @@ const BurgersMenu = () => {
     return (
         <div className='cards'>
 
-            <h2 class="cards__mobile-menu-tab" data-aos="fade-left" data-aos-delay="1300">Beef</h2>
-            <div className="cards--grid cards__beef">
+            <h2 className='cards__mobile-menu-tab' data-aos='fade-left' data-aos-delay='1300'>Beef</h2>
+            <div className='cards--grid cards__beef'>
                 <DesktopMenuTitleTab menuTitle={'Beef'} />
 
                 {
@@ -26,8 +26,8 @@ const BurgersMenu = () => {
 
             <MealsSeparator />
 
-            <h2 class="cards__mobile-menu-tab" data-aos="fade-left" data-aos-delay="1300">Chicken</h2>
-            <div className="cards--grid cards__chicken">
+            <h2 className='cards__mobile-menu-tab' data-aos='fade-left' data-aos-delay='1300'>Chicken</h2>
+            <div className='cards--grid cards__chicken'>
                 <DesktopMenuTitleTab menuTitle={'Chicken'} />
 
                 {
@@ -41,8 +41,8 @@ const BurgersMenu = () => {
 
             <MealsSeparator />
 
-            <h2 class="cards__mobile-menu-tab" data-aos="fade-left" data-aos-delay="1300">Vegan</h2>
-            <div className="cards--grid cards__vegan">
+            <h2 className='cards__mobile-menu-tab' data-aos='fade-left' data-aos-delay='1300'>Vegan</h2>
+            <div className='cards--grid cards__vegan'>
                 <DesktopMenuTitleTab menuTitle={'Vegan'} />
 
                 {
