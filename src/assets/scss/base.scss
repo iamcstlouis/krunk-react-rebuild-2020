@@ -54,12 +54,14 @@ main {
             display: flex;
             justify-content: center;
 
-            @media screen and (min-width: 576px) {
+            @media screen and (min-width: 768px) {
                 justify-content: space-between;
             }
 
-            .deliveroo-widget {
-                margin-left: auto;
+            @media screen and (min-width: 768px) {
+                .deliveroo-widget {
+                    margin-left: auto;
+                }
             }
         }
     }
