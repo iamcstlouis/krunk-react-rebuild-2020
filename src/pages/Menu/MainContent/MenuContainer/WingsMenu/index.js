@@ -1,6 +1,6 @@
 import React from 'react'
 
-import wingsHeroImage from '../../../../../images/menu/wings/wings.jpg'
+import wingsFeatImage from '../../../../../images/menu/wings/wings.jpg'
 import MenuData from '../../MenuData'
 
 import './styles.scss'
@@ -11,7 +11,7 @@ const WingsMenu = () => {
             <div className='wings-menu__img-hdr-wrapper'>
                 <div className='wings-menu__img-wrapper'>
                     <img
-                        src={wingsHeroImage}
+                        src={wingsFeatImage}
                         alt='Krunks Wings'
                         className='wings-menu__featured-img'
                         data-aos='fade-up'

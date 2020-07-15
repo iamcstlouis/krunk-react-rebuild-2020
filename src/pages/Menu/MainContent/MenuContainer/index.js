@@ -6,9 +6,7 @@ import MenuSplatterHdr from './MenuSplatterHdr'
 import MealDealsHdr from './MealDealsHdr'
 import BurgersMenu from './BurgersMenu'
 import WingsMenu from './WingsMenu'
-// import BurgersMenu from './BurgersMenu'
-// import WingsMenu from './WingsMenu'
-// import ShakesNSmoothiesMenu from './ShakesNSmoothiesMenu'
+import ShakesNSmoothiesMenu from './ShakesNSmoothiesMenu'
 // import DessertsMenu from './DessertsMenu'
 
 import './styles.scss'
@@ -20,6 +18,7 @@ const MenuBase = () => {
 
     const burgersPage = pathname === '/menu/krunk-burgers';
     const wingsPage = pathname === '/menu/krunk-wings';
+    const shakesNSmoothiesPage = pathname === '/menu/krunk-shakes-n-smoothies';
 
     return (
         <React.Fragment>
@@ -29,6 +28,7 @@ const MenuBase = () => {
 
                 {burgersPage && <BurgersMenu />}
                 {wingsPage && <WingsMenu />}
+                {shakesNSmoothiesPage && <ShakesNSmoothiesMenu />}
             </div>
         </React.Fragment>
     )
