@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, NavLink } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 
 import menuBangImage from '../../images/global/icn_footer_menu_bang.svg'
 import logo from '../../images/global/krunk-burgers-logo.png'
@@ -11,7 +12,7 @@ const Footer = () => {
         return new Date().getFullYear();
     }
     return (
-        <footer>
+        <footer className='footer'>
             <Container>
                 <div className='view-our-menu'>
                     <NavLink
@@ -19,7 +20,8 @@ const Footer = () => {
                         className='menu-link'
                         data-aos='fade-up'
                         data-aos-delay='50'
-                    >View Our Menu</NavLink>
+                    >View Our Menu
+                    </NavLink>
                 </div>
                 <div className='footer-nav'>
                     <div className='content-wrapper'>
