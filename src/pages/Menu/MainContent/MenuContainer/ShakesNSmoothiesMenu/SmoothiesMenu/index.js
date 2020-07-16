@@ -58,7 +58,7 @@ const SmoothiesMenu = () => {
                                         data-aos-delay='450'
                                     >
                                         <a
-                                            href='https://deliveroo.co.uk/menu/london/croydon/krunk?day=today&postcode=SE256NX&time=ASAP'
+                                            href='https://deliveroo.co.uk/menu/london/croydon/krunk?day=today&postcode=CR02JJ&time=ASAP'
                                             rel='noopener noreferrer'
                                             target='_blank'
                                         >

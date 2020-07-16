@@ -39,7 +39,7 @@ const Contact = () => {
                                     <p className='contact-excerpt' data-aos='fade-left' data-aos-delay='700'>
                                         Pop in for something to eat, or
                                         <a
-                                            href='https://deliveroo.co.uk/menu/london/croydon/krunk?day=today&postcode=SE256NX&time=ASAP'
+                                            href='https://deliveroo.co.uk/menu/london/croydon/krunk?day=today&postcode=CR02JJ&time=ASAP'
                                             rel='noopener noreferrer'
                                             target='_blank'
                                         > order</a> and have your meal delivered straight to your door!

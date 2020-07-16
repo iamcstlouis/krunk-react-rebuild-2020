@@ -47,7 +47,7 @@ const ShakesMenu = () => {
                                         data-aos-delay='450'
                                     >
                                         <a
-                                            href='https://deliveroo.co.uk/menu/london/croydon/krunk?day=today&postcode=SE256NX&time=ASAP'
+                                            href='https://deliveroo.co.uk/menu/london/croydon/krunk?day=today&postcode=CR02JJ&time=ASAP'
                                             target='_blank'
                                             rel='noopener noreferrer'
                                             className='shakes-menu__link'
