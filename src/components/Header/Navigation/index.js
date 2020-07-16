@@ -7,10 +7,16 @@ import DeliverooWidget from '../../DeliverooWidget'
 
 import './styles.scss'
 
-
 const Navigation = () => {
 
     const [open, setOpen] = useState(false);
+
+    // Prevents scrolling when menu open
+    if (open) {
+        document.body.classList.add('fixed-position');
+    } else {
+        document.body.classList.remove('fixed-position');
+    }
 
     return (
         <nav className='top-nav'>
