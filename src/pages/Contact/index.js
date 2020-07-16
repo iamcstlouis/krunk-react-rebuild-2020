@@ -2,6 +2,7 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import { Helmet } from 'react-helmet'
 
+import PageTitle from '../../components/PageTitle'
 import contactMainImage from '../../images/contact/contact-krunk.jpg'
 
 import './styles.scss'
@@ -16,11 +17,8 @@ const Contact = () => {
             <div className='contact-krunk'>
                 <Container style={{ paddingBottom: '12rem' }}>
                     <div className='content-wrapper'>
-                        <div className='contact-hdr-wrapper'>
-                            <div className='contact-hdr'>
-                                <h1 data-aos='fade-down' data-aos-delay='50'>Contact</h1>
-                            </div>
-                        </div>
+
+                        <PageTitle title={'Contact'} />
 
                         <div className='contact-main'>
                             <div className='content-wrapper'>

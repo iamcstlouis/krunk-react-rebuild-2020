@@ -1,26 +1,8 @@
 .contact-krunk {
     margin-top: 6rem;
 
-    .contact-hdr {
-        h1 {
-            font-size: 50px;
-            color: #b23c52;
-            margin-bottom: 0;
-            margin-top: 3rem;
-
-            @media screen and (min-width: 768px) {
-                margin-top: 1rem;
-            }
-
-            @media screen and (min-width: 1024px) {
-                font-size: 67px;
-                margin-top: 0;
-            }
-        }
-    }
-
     .contact-main {
-        margin-top: 2rem;
+        margin-top: 6rem;
 
         .content-wrapper {
             margin-top: 2rem;
