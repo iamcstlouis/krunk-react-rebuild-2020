@@ -12,46 +12,47 @@ const SmoothiesMenu = () => {
 
         <div className='smoothies-menu'>
             <MealsSeparator />
-            <div className='menu-hdr'>
-                <div className='content-wrapper'>
-                    <img src={menuTitle} alt='Krunk Menu' className='menu-hdr-graphic' />
+            <div className='smoothies-menu__menu-hdr'>
+                <div className='smoothies-menu__content-wrapper'>
+                    <img src={menuTitle} alt='Krunk Menu' className='smoothies-menu__menu-title' />
                 </div>
             </div>
 
-            <div className='main-content'>
-                <div className='img-hdr-wrapper'>
-                    <div className='img-wrapper'>
+            <div className='smoothies-menu__main-content'>
+                <div className='smoothies-menu__img-hdr-wrapper'>
+                    <div className='smoothies-menu__img-wrapper'>
                         <img
                             src={smoothiesFeatImage}
                             alt='Krunks Smoothies'
-                            className='featured-img'
+                            className='smoothies-menu__featured-img'
                             data-aos='fade-left'
                             data-aos-delay='1200'
                         />
                     </div>
 
-                    <div className='smoothies-hdr-wrapper'>
-                        <div className='smoothies-flavours-hdr'>
-                            <div className='hdr-wrapper'>
-                                <h2>Flavours</h2>
+                    <div className='smoothies-menu__outer-hdr-wrapper'>
+                        <div className='smoothies-menu__inner-hdr-wrapper'>
+                            <div className='smoothies-menu__hdr-wrapper'>
+                                <h2 className='smoothies-menu__hdr'>Flavours</h2>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className='smoothies-flavours-list'>
-                    <div className='smoothies-flavours-hdr-mobile'>
-                        <div className='hdr-wrapper'>
-                            <h2 data-aos='fade-up' data-aos-delay='600'>Flavours</h2>
+                <div className='smoothies-menu__flavours-list-section'>
+                    <div className='smoothies-menu__flavours-hdr-desktop'>
+                        <div className='smoothies-menu__desktop-hdr-wrapper'>
+                            <h2 className='smoothies-menu__desktop-hdr' data-aos='fade-up' data-aos-delay='600'>Flavours</h2>
                         </div>
                     </div>
 
-                    <ul id='smoothie-flavours'>
+                    <ul className='smoothies-menu__flavours-list'>
                         {
 
                             MenuData.smoothies.map((smoothie) => {
                                 return (
                                     <li
+                                        className='smoothies-menu__flavours-list-item'
                                         key={smoothie.id}
                                         data-aos='fade-up'
                                         data-aos-delay='450'
