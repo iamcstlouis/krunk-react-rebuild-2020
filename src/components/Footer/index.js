@@ -2,6 +2,7 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 
+import DeliverooWidget from '../DeliverooWidget'
 import menuBangImage from '../../images/global/icn_footer_menu_bang.svg'
 import logo from '../../images/global/krunk-burgers-logo.png'
 
@@ -13,6 +14,7 @@ const Footer = () => {
     }
     return (
         <footer className='footer'>
+            <DeliverooWidget />
             <Container>
                 <div className='view-our-menu'>
                     <NavLink

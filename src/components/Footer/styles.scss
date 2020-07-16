@@ -1,9 +1,23 @@
 .footer {
+    position: relative;
     background: #290540 url("../../images/global/bg-buildings.svg") 100% 45px;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 8rem 0 1rem 0;
-    position: relative;
+
+    .deliveroo-widget {
+        display: none;
+
+        @media screen and (min-width: 768px) {
+            display: block;
+            position: absolute;
+            top: -2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 5px;
+            padding: 1rem;
+        }
+    }
 
     .view-our-menu {
         a {

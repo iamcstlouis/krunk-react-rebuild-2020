@@ -141,27 +141,28 @@
 
                 @media screen and (min-width: 768px) {
                     bottom: -25rem;
+                    display: none;
                 }
 
-                @media screen and (min-width: 812px) and (orientation: landscape) {
-                    bottom: -15rem;
-                }
+                // @media screen and (min-width: 812px) and (orientation: landscape) {
+                //     bottom: -15rem;
+                // }
 
-                @media screen and (min-width: 1024px) {
-                    bottom: -39rem;
-                }
+                // @media screen and (min-width: 1024px) {
+                //     bottom: -39rem;
+                // }
 
-                @media screen and (min-width: 1024px) and (orientation: landscape) {
-                    bottom: -15rem;
-                }
+                // @media screen and (min-width: 1024px) and (orientation: landscape) {
+                //     bottom: -15rem;
+                // }
 
-                @media screen and (min-width: 1366px) and (orientation: landscape) {
-                    bottom: -25rem;
-                }
+                // @media screen and (min-width: 1366px) and (orientation: landscape) {
+                //     bottom: -25rem;
+                // }
 
-                @media screen and (min-width: 1440px) and (orientation: landscape) {
-                    bottom: -20rem;
-                }
+                // @media screen and (min-width: 1440px) and (orientation: landscape) {
+                //     bottom: -20rem;
+                // }
             }
         }
     }
