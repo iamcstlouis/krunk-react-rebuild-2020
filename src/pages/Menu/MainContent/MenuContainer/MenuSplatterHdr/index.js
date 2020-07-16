@@ -17,7 +17,6 @@ const MenuSplatterHdr = () => {
     const menuBurgerPage = pathname === '/menu/krunk-burgers'
     const menuWingsPage = pathname === '/menu/krunk-wings'
     const menuShakesPage = pathname === '/menu/krunk-shakes-n-smoothies'
-    // const menuDessertsPage = pathname === '/menu/krunk-desserts'
 
     function menuSplatterHdr() {
         return menuPage ? burgersMenuTitle

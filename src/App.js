@@ -11,6 +11,7 @@ import Menu from './pages/Menu';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import NotFound from './pages/NotFound';
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -70,6 +71,7 @@ function App() {
           <Route path='/menu' component={Menu} />
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
+          <Route component={NotFound} />
         </Switch>
       </main>
 
