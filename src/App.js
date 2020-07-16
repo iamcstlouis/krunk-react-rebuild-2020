@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Header from './components/Header'
 import { Route, Switch, useLocation } from 'react-router-dom';
@@ -12,10 +12,21 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 import './assets/scss/base.scss';
 import './assets/scss/reset.scss';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1800,
+      delay: 500,
+      once: true
+    })
+  }, []);
 
   const location = useLocation();
   const pathname = location.pathname;
