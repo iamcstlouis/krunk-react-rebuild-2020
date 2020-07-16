@@ -4,15 +4,16 @@ import Header from './components/Header'
 import { Route, Switch, useLocation } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
-import Home from './pages/Home'
-import Menu from './pages/Menu';
 import ComicQuote from './components/ComicQuote';
 import DeliverooWidget from './components/DeliverooWidget';
+import Home from './pages/Home'
+import Menu from './pages/Menu';
+import About from './pages/About';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
 import './assets/scss/base.scss';
 import './assets/scss/reset.scss';
-import About from './pages/About';
 
 function App() {
 
@@ -57,6 +58,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route path='/menu' component={Menu} />
           <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
         </Switch>
       </main>
 
