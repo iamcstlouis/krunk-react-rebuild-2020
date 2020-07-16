@@ -1,10 +1,10 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 
-import burgersMenuTitle from '../../../../../images/menu/burgers/burgers-menu-title.svg'
-import wingsMenuTitle from '../../../../../images/menu/wings/wings-menu-title.svg'
-import shakesMenuTitle from '../../../../../images/menu/shakes-n-smoothies/shakes-menu-title.svg'
-import dessertsMenuTitle from '../../../../../images/menu/desserts/desserts-menu-title.svg'
+import burgersMenuTitle from '../../../../../images/menu/burgers/burgers-menu-title2.png'
+import wingsMenuTitle from '../../../../../images/menu/wings/wings-menu-title2.png'
+import shakesMenuTitle from '../../../../../images/menu/shakes-n-smoothies/shakes-menu-title2.png'
+import dessertsMenuTitle from '../../../../../images/menu/desserts/desserts-menu-title2.png'
 
 import './styles.scss'
 

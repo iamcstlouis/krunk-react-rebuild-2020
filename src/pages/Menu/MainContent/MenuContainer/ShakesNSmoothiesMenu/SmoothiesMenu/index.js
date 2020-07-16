@@ -2,7 +2,7 @@ import React from 'react'
 
 import MealsSeparator from '../../MealsSeparator'
 import smoothiesFeatImage from '../../../../../../images/menu/shakes-n-smoothies/krunk-snickers-milkshake-1.jpg'
-import menuTitle from '../../../../../../images/menu/shakes-n-smoothies/smoothies-menu-title.svg'
+import menuTitle from '../../../../../../images/menu/shakes-n-smoothies/smoothies-menu-title2.png'
 import MenuData from '../../../MenuData'
 
 import './styles.scss'
