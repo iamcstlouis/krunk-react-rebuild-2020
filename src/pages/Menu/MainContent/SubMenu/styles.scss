@@ -1,22 +1,5 @@
 .sub-menu {
 
-    h1 {
-        font-size: 50px;
-        color: #b23c52;
-        text-decoration: underline;
-        margin-bottom: 0;
-        margin-top: 3rem;
-
-        @media screen and (min-width: 768px) {
-            margin-top: 1rem;
-        }
-
-        @media screen and (min-width: 1024px) {
-            font-size: 67px;
-            margin-top: 0;
-        }
-    }
-
     .links {
         display: flex;
         align-items: center;

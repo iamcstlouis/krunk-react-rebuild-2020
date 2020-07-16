@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+import PageTitle from '../../../../components/PageTitle'
 import subMenuBangImage from '../../../../images/menu/icn_sub_menu_bang.svg'
 
 import './styles.scss'
@@ -8,7 +9,9 @@ import './styles.scss'
 const SubMenu = () => {
     return (
         <div className='sub-menu'>
-            <h1>Menu</h1>
+
+            <PageTitle title={'Menu'} />
+
             <div className='links'>
                 <NavLink to='/menu/krunk-burgers' data-aos='fade-down' data-aos-delay='100'>Burgers</NavLink>
                 <span>
