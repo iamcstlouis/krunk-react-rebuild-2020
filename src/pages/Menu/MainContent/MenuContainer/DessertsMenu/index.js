@@ -7,42 +7,43 @@ import './styles.scss'
 
 const DessertsMenu = () => {
     return (
-        <div class="main-content">
-            <div class="img-hdr-wrapper">
-                <div class="img-wrapper">
+        <div className='desserts-menu'>
+            <div className='desserts-menu__img-hdr-wrapper'>
+                <div className='desserts-menu__img-wrapper'>
                     <img
                         src={dessertsFeatImage}
-                        alt="Krunks Desserts"
-                        class="featured-img"
-                        data-aos="fade-up"
-                        data-aos-delay="1200"
+                        alt='Krunks Desserts'
+                        className='desserts-menu__featured-img'
+                        data-aos='fade-up'
+                        data-aos-delay='1200'
                     />
                 </div>
 
-                <div class="desserts-hdr-wrapper">
-                    <div class="desserts-flavours-hdr">
-                        <div class="hdr-wrapper">
-                            <h2 data-aos="fade-up" data-aos-delay="600">Flavours</h2>
+                <div className='desserts-menu__outer-hdr-wrapper'>
+                    <div className='desserts-menu__inner-hdr-wrapper'>
+                        <div className='desserts-menu__hdr-wrapper'>
+                            <h2 className='desserts-menu__hdr' data-aos='fade-up' data-aos-delay='600'>Flavours</h2>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="desserts-flavours-list">
-                <ul id="desserts-flavours">
+            <div className='desserts-menu__flavours-wrapper'>
+                <ul className='desserts-menu__flavours-list'>
 
                     {
                         MenuData.desserts.map((dessert) => {
                             return (
                                 <li
+                                    className='desserts-menu__flavours-list-item'
                                     key={dessert.id}
-                                    data-aos="fade-up"
-                                    data-aos-delay="450"
+                                    data-aos='fade-up'
+                                    data-aos-delay='450'
                                 >
                                     <a
-                                        href="https://deliveroo.co.uk/menu/london/croydon/krunk?day=today&postcode=SE256NX&time=ASAP"
+                                        href='https://deliveroo.co.uk/menu/london/croydon/krunk?day=today&postcode=SE256NX&time=ASAP'
                                         rel='noopener noreferrer'
-                                        target="_blank"
+                                        target='_blank'
                                     >{dessert.flavour}</a>
                                 </li>
                             )
