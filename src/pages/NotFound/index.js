@@ -14,7 +14,7 @@ const NotFound = () => {
                 <p className='not-found__msg--sub' data-aos='zoom-in' data-aos-delay='400'>This page does not exist.</p>
 
                 <div className='not-found__home-btn' data-aos='zoom-in'>
-                    <Link exact to='/' className='not-found__link'>Home</Link>
+                    <Link to='/' className='not-found__link'>Home</Link>
                 </div>
             </div>
         </div>
