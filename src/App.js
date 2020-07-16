@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 
 import './assets/scss/base.scss';
 import './assets/scss/reset.scss';
+import About from './pages/About';
 
 function App() {
 
@@ -52,10 +53,11 @@ function App() {
           </Container>
         </div>
 
-          <Switch>
-            <Route exact path='/' component={Home} />
-            <Route path='/menu' component={Menu} />
-          </Switch>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/menu' component={Menu} />
+          <Route path='/about' component={About} />
+        </Switch>
       </main>
 
       <Footer />
