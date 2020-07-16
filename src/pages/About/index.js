@@ -2,6 +2,8 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import { Helmet } from 'react-helmet'
 
+import PageTitle from '../../components/PageTitle'
+
 import './styles.scss'
 
 const About = () => {
@@ -14,9 +16,8 @@ const About = () => {
             <div className='about-krunk'>
                 <Container style={{ paddingBottom: '12rem' }}>
                     <div className='about-krunk__content-wrapper'>
-                        <div className='about-krunk__about-hdr'>
-                            <h1>About</h1>
-                        </div>
+
+                        <PageTitle title={'About'} />
 
                         <div className='about-krunk__about-main-copy' data-aos='fade-up' data-aos-delay='200'>
                             <div className='about-krunk__copy-wrapper'>
