@@ -22,7 +22,11 @@ const About = () => {
                         <div className='about-krunk__about-main-copy' data-aos='fade-up' data-aos-delay='200'>
                             <div className='about-krunk__copy-wrapper'>
                                 <h2>In the Krunk kitchen...</h2>
-                                <p>Duis metus ex, malesuada at tempus ut, laoreet sit amet orci. Phasellus lobortis nibh et sapien facilisis malesuada. Phasellus euismod eros at elit euismod, eget blandit tortor pretium. Vivamus sit amet mauris eros. Nam eget lacus vitae purus iaculis dictum sit amet eget velit. Sed vel rutrum leo. Sed vel fermentum lacus, at bibendum metus. Cras tristique ac urna ut egestas. Nam mattis sit amet diam vel tempor. Pellentesque at elit pharetra, tempor nulla eget, blandit sem. Morbi sollicitudin mauris massa, ac tincidunt ipsum bibendum nec. Etiam in ipsum non tortor interdum bibendum. Donec dolor arcu, ullamcorper at tincidunt at, auctor sit amet ipsum.</p>
+                                <p>
+                                    Are you in the mood for the perfect burger? Krunk Burgers has what you’re looking for, at a price you can afford. You’ve never tasted anything quite like Krunk's!
+
+                                    No matter what you’re in the mood for, you’ll find it at our burger shop. From mouthwatering burgers to our famous chili fries made with homemade chili, you’re sure to find something to please your taste buds. You’ll find nothing but fast, friendly service at our burger shop, and the food is always fresh. We don’t make it until you order it. Choose to dine inside our quaint burger shop, or opt for outside seating for a breath of fresh air while you enjoy your meal.
+                                </p>
                             </div>
                         </div>
                     </div>
