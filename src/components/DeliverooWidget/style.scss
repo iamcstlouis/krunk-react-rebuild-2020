@@ -7,7 +7,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 1s;
+    // !important to override transition on AOS animation
+    transition: all 1s !important;
     cursor: pointer;
 
     &:hover {
