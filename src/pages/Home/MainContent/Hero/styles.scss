@@ -114,16 +114,21 @@
                             }
 
                             a {
-                                background: rgb(224, 53, 53);
+                                background: #e03535;
                                 color: #fff;
                                 padding: 1rem 2rem;
                                 font-family: "dnk";
                                 font-size: 18px;
                                 letter-spacing: 1.2px;
                                 text-decoration: none;
+                                transition: all 0.4s;
 
                                 &:hover {
                                     text-decoration: none;
+                                }
+
+                                &:hover {
+                                    background: #a82222;
                                 }
                             }
                         }
