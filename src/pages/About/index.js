@@ -25,7 +25,7 @@ const About = () => {
                                 <p>
                                     Are you in the mood for the perfect burger? Krunk Burgers has what you’re looking for, at a price you can afford. You’ve never tasted anything quite like Krunk's!
 
-                                    No matter what you’re in the mood for, you’ll find it at our burger shop. From mouthwatering burgers to our famous chili fries made with homemade chili, you’re sure to find something to please your taste buds. You’ll find nothing but fast, friendly service at our burger shop, and the food is always fresh. We don’t make it until you order it. Choose to dine inside our quaint burger shop, or opt for outside seating for a breath of fresh air while you enjoy your meal.
+                                    No matter what you’re in the mood for, you’ll find it at our burger shop. From mouthwatering burgers to our famous chilli fries made with homemade chili, you’re sure to find something to please your taste buds. You’ll find nothing but fast, friendly service at our burger shop, and the food is always fresh. We don’t make it until you order it. Choose to dine inside our quaint burger shop, or opt for outside seating for a breath of fresh air while you enjoy your meal.
                                 </p>
                             </div>
                         </div>
