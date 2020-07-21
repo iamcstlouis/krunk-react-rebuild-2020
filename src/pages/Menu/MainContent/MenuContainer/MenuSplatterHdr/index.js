@@ -29,7 +29,7 @@ const MenuSplatterHdr = () => {
     return (
         <div className='menu-hdr'>
             <div className='content-wrapper'>
-                <img src={menuSplatterHdr()} alt='Krunk Menu' className='menu-hdr-graphic' />
+                <img src={menuSplatterHdr()} alt='Krunk Menu' className='menu-hdr-graphic' data-aos='fade-in' />
             </div>
         </div>
     )
