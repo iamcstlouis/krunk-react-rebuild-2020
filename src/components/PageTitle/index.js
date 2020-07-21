@@ -4,7 +4,7 @@ import './styles.scss'
 
 const PageTitle = ({ title }) => {
     return (
-        <div className='krunk-page-title'>
+        <div className='krunk-page-title' data-aos='fade-in'>
             <h1>{title}</h1>
         </div>
     )
