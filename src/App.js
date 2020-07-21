@@ -61,7 +61,7 @@ function App() {
           <Container>
             <div className="content-wrapper">
               {showComicQuote()}
-              {!homePage ? <DeliverooWidget /> : null}
+              {!homePage ? <DeliverooWidget aosAnimationStyle='fade-in' aosDelay='800' /> : null}
             </div>
           </Container>
         </div>

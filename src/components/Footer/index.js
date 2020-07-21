@@ -14,7 +14,7 @@ const Footer = () => {
     }
     return (
         <footer className='footer'>
-            <DeliverooWidget aosAnimation={'fade-up'} />
+            <DeliverooWidget aosAnimationStyle={'fade-up'} />
             <Container>
                 <div className='view-our-menu'>
                     <NavLink

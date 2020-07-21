@@ -4,9 +4,9 @@ import deliverooWidgetImage from '../../images/global/deliveroo-widget.png'
 
 import './style.scss'
 
-const DeliverooWidget = ({aosAnimation, aosDelay}) => {
+const DeliverooWidget = ({ aosAnimationStyle, aosDelay }) => {
     return (
-        <div className='deliveroo-widget' data-aos={aosAnimation} data-aos-delay={aosDelay}>
+        <div className='deliveroo-widget' data-aos={aosAnimationStyle} data-aos-delay={aosDelay}>
             <a
                 href='https://deliveroo.co.uk/menu/london/croydon/krunk?day=today&postcode=CR02JJ&time=ASAP'
                 rel='noopener noreferrer'
